@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "tactac2",
+    "description": "탁탁몰 재고확인 프로그램",
+    "version": "0.0.1",
+    "browser_action": {
+      "default_icon": {
+        "16": "logo.png"
+      },
+      "default_popup": "title.html"
+    },
+    "permissions": [
+        "https://tagtag.co.kr/*",
+        "http://tagtag.co.kr/*",
+        "activeTab"
+    ],
+    "background": {
+      "scripts": [
+        "background.js"
+      ]
+    }
+  }
